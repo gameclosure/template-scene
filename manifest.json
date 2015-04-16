@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "devkit-core": "git@github.com:gameclosure/devkit-core.git#v2.4.0",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#master"
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#master",
+    "weeby": "git@github.com:weebygames/weeby-js#cloud-producer"
   },
   "shortName": "templatescene",
   "studio": {
