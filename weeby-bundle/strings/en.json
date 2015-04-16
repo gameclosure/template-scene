@@ -1,0 +1,81 @@
+{
+  "games": {
+    "boosterInfoChooseBoosts": "Choose Boosts",
+    "boosterInfoPurchaseBoosts": "Purchase Boosts to help solve this level!",
+    "boosterInfoTitle": "Boosts",
+    "gateKeyDescription": "Get 3x Gate Keys and open a locked gate!",
+    "gateKeyName": "Gate Keys",
+    "objectiveCollectionMode": "Collect {x} pink flowers!",
+    "objectiveSurvivalMode": "Survive to the finish line!"
+  },
+  "inventory": {
+    "commonMax": "MAX",
+    "currencyCommon": "Coins",
+    "currencyFriendPoints": "Friend Points",
+    "currencyLives": "Lives",
+    "currencyPremium": "Gems",
+    "friendPointsCostPattern": "{amount}",
+    "friendPointsNamePattern": "{amount} {currencyFriendPoints}",
+    "livesCostPattern": "${amount}",
+    "livesDescription": "Fully refill your lives!",
+    "livesNamePattern": "{amount} {currencyLives}",
+    "premiumCostPattern": "{amount}",
+    "realMoneyCostPattern": "${amount}",
+    "realMoneyNamePattern": "${amount}"
+  },
+  "powerups": {
+    "cupcakesName": "Cupcakes",
+    "cupcakesShortName": "powerup1",
+    "cupcakesDescription": "Make you larger and indestructible",
+    "wandsName": "Wands",
+    "wandsShortName": "powerup2",
+    "wandsDescription": "Generate lots of honey",
+    "magnetsName": "Magnets",
+    "magnetsShortName": "powerup3",
+    "magnetsDescription": "Attracts honey",
+    "energyName": "Energy",
+    "slowName": "Slow",
+    "timeName": "Extra Time"
+  },
+  "social": {
+    "giftReward": "You'll get {reward} Friend Point for every Life you send!"
+  },
+  "itemshop": {
+    "baseItemName": "Standard",
+    "baseItemDescription": "Standard",
+    "greenItemName": "Green Bee",
+    "greenItemDescription": "Green is a wonderful color",
+    "blueItemName": "Blue Bee",
+    "blueItemDescription": "Blue is a wonderful color",
+    "orangeItemName": "Orange Bee",
+    "orangeItemDescription": "Orange is a wonderful color",
+    "pinkItemName": "Pink Bee",
+    "pinkItemDescription": "Pink is a wonderful color",
+    "purpleItemName": "Purple Bee",
+    "purpleItemDescription": "Purple is a wonderful color",
+    "redItemName": "Red Bee",
+    "redItemDescription": "Red is a wonderful color",
+    "yellowItemName": "Yellow Bee",
+    "yellowItemDescription": "Yellow is a wonderful color",
+    "forestItemName": "Forest",
+    "candyItemName": "Candy",
+    "nightItemName": "Night",
+
+    "teamShopTitle": "Bee Shop",
+    "teamItemViewTitle": "View Bee",
+    "teamSlotSelectTitle": "Pick a Slot",
+    "teamItemSelectTitle": "Pick a Bee",
+    "teamGachaConfirmTitle": "Play Gacha",
+    "teamGachaConfirmMessage": "Play the bee gacha!",
+
+    "teamGachaCommonName": "Common Gacha",
+    "teamGachaPremiumName": "Premium Gacha",
+
+    "themeShopTitle": "Background Shop",
+
+    "themeConfirmPurchaseMessage": "You are about to purchase the {name} background.",
+    "themeConfirmPurchaseTitle": "Purchase Background",
+
+    "equipped": "Equipped"
+  }
+}

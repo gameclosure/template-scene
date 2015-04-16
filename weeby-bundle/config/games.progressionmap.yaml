@@ -1,0 +1,315 @@
+{
+  "imagePath": "map/",
+  "background": {
+    "scrollOpts": {
+      "bounce": true,
+      "bounceRadius": 50
+    },
+    "tiles": "tiles/"
+  },
+  "decorations": [],
+  "gates": [],
+  "levels": [
+    {},
+    {
+      "selectedPowers": [],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 125,
+      "y": 315
+    },
+    {
+      "selectedPowers": [],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 240,
+      "y": 435
+    },
+    {
+      "selectedPowers": [],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 390,
+      "y": 500
+    },
+    {
+      "collection": 6,
+      "selectedPowers": [],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 467,
+      "y": 609
+    },
+    {
+      "collection": 8,
+      "selectedPowers": [],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 410,
+      "y": 730
+    },
+    {
+      "selectedPowers": [
+        "cupcakes"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 320,
+      "y": 820.5999999999999
+    },
+    {
+      "collection": 9,
+      "selectedPowers": [
+        "cupcakes",
+        "wands"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 359,
+      "y": 941.5999999999999
+    },
+    {
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 441,
+      "y": 1030.6
+    },
+    {
+      "collection": 10,
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 375,
+      "y": 1127.6
+    },
+    {
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 245,
+      "y": 1166.6
+    },
+    {
+      "collection": 11,
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 110,
+      "y": 1201.6
+    },
+    {
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 35,
+      "y": 1310.6
+    },
+    {
+      "collection": 12,
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 112,
+      "y": 1419.6
+    },
+    {
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 241,
+      "y": 1467.6
+    },
+    {
+      "collection": 13,
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 379,
+      "y": 1514.6
+    },
+    {
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 460,
+      "y": 1605.6
+    },
+    {
+      "collection": 14,
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 391,
+      "y": 1706.6
+    },
+    {
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 259,
+      "y": 1724.6
+    },
+    {
+      "collection": 15,
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "collection",
+      "x": 132,
+      "y": 1752.6
+    },
+    {
+      "selectedPowers": [
+        "cupcakes",
+        "wands",
+        "magnets"
+      ],
+      "stars": [
+        1,
+        1000,
+        2000
+      ],
+      "type": "survival",
+      "x": 82,
+      "y": 1856.6
+    }
+  ],
+  "objectives": {
+    "collection": {
+      "textKey": "objectiveCollectionMode",
+      "icon": "objectives/flower.png",
+      "nodeIcon": "nodes/collection.png",
+      "nodeIconLocked": "nodes/lock.png"
+    },
+    "survival": {
+      "textKey": "objectiveSurvivalMode",
+      "icon": "objectives/honey.png",
+      "nodeIcon": "nodes/survival.png",
+      "nodeIconLocked": "nodes/lock.png"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "bundleID": "by.wee.demoGame",
+  "packageName": "by.wee.demoGame",
+  "orientation": "portrait",
+
+  "score": {
+    "font": "gold",
+    "color": "white",
+    "start": 1,
+    "increment": 1000,
+    "textAlign": "center",
+    "size": {
+      "width": "max",
+      "height": 100
+    },
+    "position": {
+      "landscape": {
+        "x": -250,
+        "y": 70,
+        "absolute": true
+      },
+      "portrait": {
+        "x": "center",
+        "y": 250
+      }
+    }
+  },
+
+  "buttons": {
+    "layout": "horizontal",
+    "verticalPosition": "bottom",
+    "horizontalPosition": "center",
+    "padding": {
+      "x": 20,
+      "y": 20
+    },
+    "size": {
+      "width": 270,
+      "height": 127
+    },
+    "position": {
+      "landscape": {
+        "x": "center",
+        "y": "bottom"
+      },
+      "portrait": {
+        "x": "center",
+        "y": "bottom"
+      }
+    }
+  },
+
+  "inventory": {
+    "visible": true,
+    "position": {
+      "landscape": {
+        "x": 20,
+        "y": -160
+      },
+      "portrait": {
+        "x": "center",
+        "y": -320
+      }
+    },
+    "resourceIcon": {
+      "size": {
+        "width": 125,
+        "height": 125
+      },
+      "position": {
+        "landscape": {
+          "x": 0,
+          "y": 0
+        },
+        "portrait": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "resourceIconBadge": {
+      "size": {
+        "width": 60,
+        "height": 60
+      },
+      "position": {
+        "landscape": {
+          "x": -60,
+          "y": -60
+        },
+        "portrait": {
+          "x": -60,
+          "y": -60
+        }
+      },
+      "text": {
+        "font": {
+          "weight": "bold",
+          "strokeWidth": 1,
+          "strokeColor": "#333",
+          "color": "#fff",
+          "size": 34
+        },
+        "position": {
+          "landscape": {
+            "y": -3,
+            "x": 0
+          },
+          "portrait": {
+            "y": -3,
+            "x": 0
+          }
+        }
+      }
+    },
+    "addResourceButton": {
+      "size": {
+        "width": 70,
+        "height": 70
+      },
+      "position": {
+        "landscape": {
+          "x": 125,
+          "y": 35
+        },
+        "portrait": {
+          "x": 125,
+          "y": 35
+        }
+      }
+    }
+  },
+
+  "progressionMap": {
+    "levelText": {
+      "text": {
+        "font": {
+          "color": "#fff",
+          "strokeColor": "#333",
+          "strokeWidth": 5
+        },
+        "textAlign": "center"
+      },
+      "size": {
+        "width": "max",
+        "height": 50
+      },
+      "position": {
+        "landscape": {
+          "x": 320,
+          "y": 10
+        },
+        "portrait": {
+          "x": "center",
+          "y": 10
+        }
+      }
+    },
+    "stars": {
+      "position": {
+        "landscape": {
+          "x": "right",
+          "y": 80
+        },
+        "portrait": {
+          "x": "center",
+          "y": 80
+        }
+      },
+      "starSize": {
+        "width": 120,
+        "height": 115
+      },
+      "padding": {
+        "x": 20,
+        "y": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+autoAnonymousLogin: true
+autoPlatformLogin: true
+icon: resources/icons/48.png
+banners:
+  default: "http://storage.googleapis.com/weebyproduction/images/weeby/platforms/tango/weebybanner.png"
+appId: WWRDemo
+urlScheme: wwrdemo4t

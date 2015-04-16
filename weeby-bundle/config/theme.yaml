@@ -1,0 +1,6 @@
+enforceTransition: false
+spinner:
+  hover: 0
+  fps: 0
+  mode: image
+logo: logo.png

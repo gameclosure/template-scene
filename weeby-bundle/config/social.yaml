@@ -1,0 +1,14 @@
+brag:
+  reward:
+    - 1
+    - lives
+  maxRewardsPerDay: 4
+  checkAllOnShow: true
+  enabled: false
+invite:
+  reward:
+    - 250
+    - common
+  checkAllOnShow: false
+  cooldown: 2592000000
+  enabled: false

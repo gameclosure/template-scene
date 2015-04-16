@@ -1,0 +1,36 @@
+useGameResult: true
+useCurrencyHeader: true
+showGameOnLoad: false
+showStarburstOnStartGame: true
+tutorialFriendScores:
+  - 200
+  - 300
+  - 400
+  - 500
+  - 600
+balance:
+  gamesPerLevel:
+    - 3
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 10
+    - 12
+    - 15
+    - 20
+  maxAdjustedScore: 1000000
+  minAdjustedScore: 50000
+  minScoreForXP: 0
+  gainedCurrencyMultiplier: 0.0000025
+  levelUpRewards:
+    - currency: common
+      multiplier: 10
+      addition: 0
+    - currency: premium
+      multiplier: 0
+      addition: 1
+showTutorialFriends: true
+showFriendPoints: false
+xpEnabled: false

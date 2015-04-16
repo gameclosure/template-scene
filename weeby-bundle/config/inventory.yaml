@@ -1,0 +1,68 @@
+imagePath: economy/
+resources:
+  common:
+    initialValue: 500
+    stores:
+      premium:
+        - cost: 10
+          rewardAmount: 6000
+          purchaseId: commonForPremium1
+        - cost: 50
+          rewardAmount: 33000
+          purchaseId: commonForPremium2
+        - cost: 100
+          rewardAmount: 72000
+          purchaseId: commonForPremium3
+        - cost: 300
+          rewardAmount: 240000
+          purchaseId: commonForPremium4
+        - cost: 500
+          rewardAmount: 480000
+          purchaseId: commonForPremium5
+    enabled: false
+  lives:
+    initialValue: 5
+    regenerationMax: 5
+    regenerationTime: 480000
+    stores:
+      premium:
+        - cost: 5
+          rewardAmount: 5
+          purchaseId: livesForPremium1
+        - cost: 10
+          rewardAmount: 12
+          purchaseId: livesForPremium2
+        - cost: 20
+          rewardAmount: 25
+          purchaseId: livesForPremium3
+        - cost: 40
+          rewardAmount: 55
+          purchaseId: livesForPremium4
+        - cost: 100
+          rewardAmount: 150
+          purchaseId: livesForPremium5
+    enabled: false
+  premium:
+    initialValue: 10
+    stores:
+      realMoney:
+        - cost: "0.99"
+          rewardAmount: 10
+          purchaseId: premium_for_real_money1
+        - cost: "4.99"
+          rewardAmount: 55
+          purchaseId: premium_for_real_money2
+        - cost: "9.99"
+          rewardAmount: 120
+          purchaseId: premium_for_real_money3
+        - cost: "24.99"
+          rewardAmount: 360
+          purchaseId: premium_for_real_money4
+        - cost: "44.99"
+          rewardAmount: 675
+          purchaseId: premium_for_real_money5
+    enabled: false
+  friendPoints:
+    initialValue: 0
+    stores: {}
+    enabled: false

@@ -1,0 +1,40 @@
+{
+  "games": {
+    "boosterInfoChooseBoosts": "Choose Boosts",
+    "boosterInfoPurchaseBoosts": "Purchase Boosts to help solve this level!",
+    "boosterInfoTitle": "Boosts",
+    "gateKeyDescription": "Get 3x Gate Keys and open a locked gate!",
+    "gateKeyName": "Gate Keys",
+    "objectiveCollectionMode": "Collect {x} pink flowers!",
+    "objectiveSurvivalMode": "Survive to the finish line!"
+  },
+  "inventory": {
+    "commonMax": "MAX",
+    "currencyCommon": "Coins",
+    "currencyFriendPoints": "Friend Points",
+    "currencyLives": "Lives",
+    "currencyPremium": "Gems",
+    "friendPointsCostPattern": "{amount}",
+    "friendPointsNamePattern": "{amount} {currencyFriendPoints}",
+    "livesCostPattern": "${amount}",
+    "livesDescription": "Fully refill your lives!",
+    "livesNamePattern": "{amount} {currencyLives}",
+    "premiumCostPattern": "{amount}",
+    "realMoneyCostPattern": "${amount}",
+    "realMoneyNamePattern": "${amount}"
+  },
+  "powerups": {
+    "cupcakesName": "Cupcakes",
+    "cupcakesShortName": "powerup1",
+    "cupcakesDescription": "It is powerful",
+    "wandsName": "Wands",
+    "wandsShortName": "powerup2",
+    "wandsDescription": "It is powerful",
+    "magnetsName": "Magnets",
+    "magnetsShortName": "powerup3",
+    "magnetsDescription": "Attract all the things!"
+  },
+  "social": {
+    "giftReward": "You'll get {reward} Friend Point for every Life you send!"
+  }
+}

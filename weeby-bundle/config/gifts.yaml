@@ -1,0 +1,11 @@
+gifts:
+  sendReward:
+    - 1
+    - friendPoints
+  fastAccept:
+    enabled: false
+    time: 3600000
+    reward:
+      - 1
+      - friendPoints
+enabled: false

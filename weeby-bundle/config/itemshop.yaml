@@ -1,0 +1,134 @@
+imagePath: itemshop
+shops:
+  - id: theme
+    categories:
+      - themes
+    type: theme
+    requiredLevel: 3
+  - id: team
+    type: gacha
+    categories:
+      - team
+    requiredLevel: 5
+    bannerImage: team_background.png
+    rarity:
+      - id: basic
+        value: 40
+      - id: common
+        value: 30
+      - id: uncommon
+        value: 20
+      - id: rare
+        value: 10
+    gachas:
+      - id: premium
+        price:
+          - 30
+          - premium
+        probability:
+          - rarity: basic
+            weight: 0
+          - rarity: common
+            weight: 0
+          - rarity: uncommon
+            weight: 1
+          - rarity: rare
+            weight: 1
+      - id: common
+        price:
+          - 200
+          - common
+        probability:
+          - rarity: basic
+            weight: 5
+          - rarity: common
+            weight: 5
+          - rarity: uncommon
+            weight: 1
+          - rarity: rare
+            weight: 0
+
+categories:
+  - id: team
+    slots:
+      - requiredLevel: 0
+        unlocked: true
+        price:
+          - 0
+          - common
+        requiresItem: true
+  - id: themes
+    slots:
+      - requiredLevel: 0
+        unlocked: true
+        price:
+          - 0
+          - common
+        requiresItem: true
+items:
+  team:
+    - id: yellow
+      icon: bees/yellow.png
+      canEquip: true
+      unlocked: true
+      rarity: basic
+      maxLevel: 1
+    - id: blue
+      icon: bees/blue.png
+      canEquip: true
+      rarity: common
+      maxLevel: 100
+    - id: green
+      icon: bees/green.png
+      canEquip: true
+      rarity: uncommon
+      maxLevel: 100
+    - id: orange
+      icon: bees/orange.png
+      canEquip: true
+      rarity: basic
+      maxLevel: 100
+    - id: pink
+      icon: bees/pink.png
+      canEquip: true
+      rarity: common
+      maxLevel: 100
+    - id: purple
+      icon: bees/purple.png
+      canEquip: true
+      rarity: rare
+      maxLevel: 100
+    - id: red
+      icon: bees/red.png
+      canEquip: true
+      rarity: rare
+      maxLevel: 100
+  themes:
+    - id: forest
+      bannerImage: themes/bgheader_forest.png
+      listImage: themes/bglist_forest.png
+      canEquip: true
+      unlocked: true
+      price:
+        - 30
+        - premium
+    - id: candy
+      bannerImage: themes/bgheader_candy.png
+      listImage: themes/bglist_candy.png
+      canEquip: true
+      price:
+        - 30
+        - premium
+    - id: night
+      bannerImage: themes/bgheader_night.png
+      listImage: themes/bglist_night.png
+      canEquip: true
+      price:
+        - 30
+        - premium
+themeShop:
+  enabled: false
+characterShop:
+  enabled: true
+teamShop:
+  enabled: false

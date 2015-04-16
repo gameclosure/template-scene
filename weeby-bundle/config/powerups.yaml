@@ -1,0 +1,96 @@
+imagePath: powerups/
+powerups:
+  - id: cupcakes
+    name: cupcakesName
+    shortName: cupcakesShortName
+    description: cupcakesDescription
+    initialQuantity: 3
+    icon: cupcakes/cupcakes.png
+    passive: true
+    tutorialIntro: cupcakesIntroText
+    price:
+      - "50"
+      - premium
+  - id: wands
+    name: wandsName
+    shortName: wandsShortName
+    description: wandsDescription
+    displayPrice: wandsDisplayPrice
+    quantity: 3
+    icon: wands/wands.png
+    passive: true
+    tutorialIntro: wandsIntroText
+    price:
+      - "2"
+      - premium
+  - id: magnets
+    name: magnetsName
+    shortName: magnetsShortName
+    description: magnetsDescription
+    displayPrice: magnetsDisplayPrice
+    quantity: 3
+    icon: magnets/magnets.png
+    passive: true
+    tutorialIntro: magnetsIntroText
+    price:
+      - "2"
+      - premium
+enabled: false
+luckySpin:
+  enabled: false
+  gamesForFreeSpin: 1
+  price:
+    - 2
+    - premium
+  requiredLevel: 0
+  rewards:
+    - category: powerups
+      item:
+        - 1
+        - cupcakes
+      weight: 2
+    - item:
+        - 1
+        - wands
+      category: powerups
+      weight: 2
+    - weight: 3
+      item:
+        - 2
+        - magnets
+      itemCategory: currency
+      category: powerups
+    - weight: 4
+      item:
+        - 50
+        - common
+      itemCategory: currency
+      category: currencies
+    - weight: 2
+      item:
+        - 2
+        - premium
+      itemCategory: currency
+      category: currencies
+    - weight: 1
+      item:
+        - 5
+        - cupcakes
+      itemCategory: currency
+      category: powerups
+    - weight: 10
+      item:
+        - 1
+        - energy
+      itemCategory: currency
+      category: powerups
+    - weight: 10
+      item:
+        - 1
+        - time
+      itemCategory: currency
+      category: powerups
+selected:
+  - cupcakes
+  - wands
+  - magnets

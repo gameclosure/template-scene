@@ -1,0 +1,9 @@
+theme: pangpang
+platformType: simpleSocial
+gameType: leaderboard
+modules:
+  - itemshop
+version: 4.4.0
+title: GlobalLeaderboard1
+logo: logo.png
+icon: appicons/512.png
