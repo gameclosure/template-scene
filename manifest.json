@@ -14,5 +14,46 @@
     "portrait",
     "landscape"
   ],
-  "title": "templatescene"
+  "title": "templatescene",
+  "addons": {
+    "communityart" : {
+      "server": "http://dev-js.io:8181/",
+      "userID": 5629499534213120,
+      "keys": [
+        "swarm/spaceshipConf",
+
+        "swarm/bg1",
+
+        "swarm/player_bank_0001",
+        "swarm/player_bank_0002",
+        "swarm/player_bank_0003",
+        "swarm/player_bank_0004",
+        "swarm/player_bank_0005",
+        "swarm/player_bank_0006",
+        "swarm/player_bank_0007",
+
+        "swarm/player_fly_0001",
+
+        "swarm/player_roll_0001",
+        "swarm/player_roll_0002",
+        "swarm/player_roll_0003",
+        "swarm/player_roll_0004",
+        "swarm/player_roll_0005",
+        "swarm/player_roll_0006",
+        "swarm/player_roll_0007",
+        "swarm/player_roll_0008",
+        "swarm/player_roll_0009",
+        "swarm/player_roll_0010",
+        "swarm/player_roll_0011",
+
+        "swarm/enemy_type0",
+        "swarm/enemy_type1",
+        "swarm/enemy_type2",
+        "swarm/enemy_boss",
+
+        "swarm/laser",
+        "swarm/particleCircle"
+      ]
+    }
+  }
 }
