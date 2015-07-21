@@ -1,3 +1,4 @@
+global: true
 useGameResult: true
 useCurrencyHeader: true
 showGameOnLoad: false

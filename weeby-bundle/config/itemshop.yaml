@@ -129,6 +129,6 @@ items:
 themeShop:
   enabled: false
 characterShop:
-  enabled: true
+  enabled: false
 teamShop:
   enabled: false

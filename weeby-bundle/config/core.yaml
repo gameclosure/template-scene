@@ -1,5 +1,5 @@
 theme: pangpang
-platformType: simpleSocial
+platformType: simple
 gameType: leaderboard
 modules:
   - itemshop
