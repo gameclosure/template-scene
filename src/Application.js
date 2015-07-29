@@ -16,9 +16,13 @@ exports = scene(function() {
 
   // STEP 3: Destroy the text!
   scene.screen.onDown(function() {
+    scene.addScore(Math.floor(Math.random() * 1000))
     effects.explode(myText);
     myText.destroy();
     scene.gameOver();
   });
 
 });
+
+scene.useWeeby();
+
