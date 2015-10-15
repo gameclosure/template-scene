@@ -20,5 +20,10 @@
       "useWebGL": true
     }
   },
+  "modules": {
+    "push": {
+      "gcmSenderId": "304151896530"
+    }
+  },
   "title": "templatescene"
 }
