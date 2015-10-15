@@ -15,5 +15,10 @@
   "supportedOrientations": [
     "portrait"
   ],
+  "browser": {
+    "canvas": {
+      "useWebGL": true
+    }
+  },
   "title": "templatescene"
 }
