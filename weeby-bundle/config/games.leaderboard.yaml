@@ -32,6 +32,6 @@ balance:
     - currency: premium
       multiplier: 0
       addition: 1
-showTutorialFriends: true
+showTutorialFriends: false
 showFriendPoints: false
 xpEnabled: false
