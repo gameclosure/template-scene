@@ -32,6 +32,10 @@ balance:
     - currency: premium
       multiplier: 0
       addition: 1
+    - currency: lives
+      multiplier: 0
+      addition: 0
+      setToRegenerationMax: false
 showTutorialFriends: false
 showFriendPoints: false
 xpEnabled: false
