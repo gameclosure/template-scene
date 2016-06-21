@@ -7,8 +7,9 @@
     }
   },
   "dependencies": {
-    "devkit-core": "https://github.com/gameclosure/devkit-core#532119484f7e4aa806c39c65868f91ffc2ad76f1",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#f4314783905957c5cccaf42c98346a152e96c6eb",
+    "devkit-core": "https://github.com/gameclosure/devkit-core#51eae298c7b8dc64b3d07920920fc24d849a9e1f",
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#master",
+    "community-art": "git@github.com:weebygames/community-art.git#master",
     "weeby": "https://github.com/weebygames/weeby-js#7548d7062e6bbb670b2bd1ab6fd56e934465a5d0"
   },
   "modules": {
@@ -16,6 +17,7 @@
       "gcmSenderId": "304151896530"
     }
   },
+  "ios": {},
   "shortName": "templatescene",
   "splash": {
     "autoHide": false,
