@@ -1,0 +1,37 @@
+projectTemplates:
+  __projectType__:
+    # url: https://github.com/jsio-private/jsio-pt-devkit#???
+    url: https://github.com/jsio-private/jsio-pt-devkit#master
+    name: jsio-pt-devkit
+
+  __static__:
+    _contentsPrefix:
+      src: __static__/
+      dest: ''
+    contents:
+      - hello-world.png.png
+      - abduction.png
+      - avoider.png
+      - flappy-bee.png
+      - geometry.png
+      - juggle.png
+      - runner.png
+      - swarm.png
+
+  __all__:
+    _contentsPrefix:
+      src: __all__/
+      dest: ''
+    contents:
+      - .gitignore
+      - src: package.json
+        template: true
+      - run-deployment.sh
+
+
+  hello-world:
+    title: 'Hello World'
+    screenshot: '{{s3Url}}/hello-world.png'
+    contents:
+      - src: devkit-scene/examples/Demo.js
+        dest: src/Application.js
