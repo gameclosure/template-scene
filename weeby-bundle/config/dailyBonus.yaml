@@ -1,0 +1,46 @@
+enabled: false
+titleText: dailyBonusTitle
+descriptionText: dailyBonusDescription
+singleReward:
+  value:
+    - 1
+    - premium
+  icon: economy/premium/premium.png
+  category: currency
+rewards:
+  - value:
+      - 50
+      - common
+    icon: economy/common/common.png
+    category: currency
+  - value:
+      - 50
+      - common
+    icon: economy/common/shop1.png
+    category: currency
+  - value:
+      - 50
+      - common
+    icon: economy/common/shop2.png
+    category: currency
+  - value:
+      - 50
+      - common
+    icon: economy/common/shop2.png
+    category: currency
+  - value:
+      - 100
+      - common
+    icon: economy/common/shop4.png
+    category: currency
+  - value:
+      - 100
+      - common
+    icon: economy/common/shop4.png
+    category: currency
+  - value:
+      - 10
+      - premium
+    icon: economy/premium/shop1.png
+    category: currency
+type: single

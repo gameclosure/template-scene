@@ -3,8 +3,7 @@ platformType: simple
 gameType: leaderboard
 modules:
   - itemshop
-version: 4.4.0
+version: 6.0.0
 title: GlobalLeaderboard1
 logo: logo.png
 icon: appicons/512.png
-allowBlockingPreload: true

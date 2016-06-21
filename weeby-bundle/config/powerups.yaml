@@ -1,4 +1,6 @@
 imagePath: powerups/
+useLegacyPowerupScreeen: false
+enabled: false
 powerups:
   - id: cupcakes
     name: cupcakesName

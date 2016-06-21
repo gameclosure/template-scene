@@ -1,0 +1,51 @@
+{
+  "inventory": {
+    "coins_dialogTitle": "增加金幣",
+    "coins_500_displayName": "6,000 金幣",
+    "coins_500_displayCost": "10",
+    "coins_800_displayName": "33,000 金幣",
+    "coins_800_displayCost": "50",
+    "coins_1600_displayName": "72,000 金幣",
+    "coins_1600_displayCost": "100",
+    "coins_3300_displayName": "240,000 金幣",
+    "coins_3300_displayCost": "300",
+    "coins_7500_displayName": "480,000 金幣",
+    "coins_7500_displayCost": "500",
+
+    "gems_dialogTitle": "增加寶石",
+    "gems_4_displayName": "10 寶石",
+    "gems_4_displayCost": "$0.99",
+    "gems_7_displayName": "55 寶石",
+    "gems_7_displayCost": "$4.99",
+    "gems_24_displayName": "120 寶石",
+    "gems_24_displayCost": "$9.99",
+    "gems_50_displayName": "360 寶石",
+    "gems_50_displayCost": "$24.99",
+    "gems_108_displayName": "675 寶石",
+    "gems_108_displayCost": "$44.99",
+
+    "life_dialogTitle": "增加性命",
+    "life_1_displayName": "5 生命",
+    "life_1_displayCost": "5",
+    "life_5_displayName": "12 生命",
+    "life_5_displayCost": "10",
+    "life_10_displayName": "25 生命",
+    "life_10_displayCost": "20",
+    "life_55_displayName": "55 生命",
+    "life_55_displayCost": "40",
+    "life_150_displayName": "150 生命",
+    "life_150_displayCost": "100",
+
+    "currencies_common_notEnoughDialog_title": "沒有足夠金幣",
+    "currencies_common_notEnoughDialog_text": "要從金幣商店購買金幣？",
+    "currencies_premium_notEnoughDialog_title": "沒有足夠寶石",
+    "currencies_premium_notEnoughDialog_text": "要從寶石商店購買寶石？",
+    "currencies_life_notEnoughDialog_title": "沒有足夠生命",
+    "currencies_life_notEnoughDialog_text": "要從生命商店購買生命？",
+    "currencies_life_tooManyDialog_title": "太多生命",
+    "currencies_life_tooManyDialog_text": "多玩幾次遊戲才可以買新生命"
+  },
+
+  "itemshop": {
+  }
+}

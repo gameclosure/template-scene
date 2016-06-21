@@ -1,0 +1,35 @@
+friendChallenge:
+  enabled: false
+  hideHeader: true
+  conditions:
+    models:
+      core:
+        gamesPlayed: 0
+        isNewUser: true
+  views:
+    - state: STATE_LEADERBOARD_LADDER
+      viewStates:
+        - tag: $ladder
+          name: tutorialHidden
+  steps:
+    - trigger:
+        state: STATE_LEADERBOARD_LADDER
+      result:
+        state: STATE_GAME
+        history: []
+      completion:
+        state: STATE_LEADERBOARD_RESULT
+    - trigger:
+        state: STATE_BOOSTER_EQUIP
+      result:
+        state: STATE_LEADERBOARD_CHALLENGE
+        history: []
+      completion:
+        state: STATE_GAME
+    - trigger:
+        state: STATE_LEADERBOARD_RESULT
+      result:
+        state: STATE_LEADERBOARD_PASSED
+        history: []
+      completion:
+        state: STATE_LEADERBOARD_RESULT

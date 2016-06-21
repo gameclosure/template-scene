@@ -1,0 +1,34 @@
+enabled: false
+safeNotificationHours:
+  min: 0
+  max: 22
+returnMessages:
+  - contents:
+      - title: title1
+        message: returnMessage1
+      - title: title1
+        message: returnMessage2
+      - title: title1
+        message: returnMessage3
+      - title: title1
+        message: returnMessage4
+      - title: title1
+        message: returnMessage5
+    delay:
+      seconds: 0
+      minutes: 0
+      hours: 0
+      days: 1
+regenerationMessages:
+  lives:
+    contents:
+      - title: title1
+        message: regenMessage1
+      - title: title1
+        message: regenMessage2
+      - title: title1
+        message: regenMessage3
+      - title: title1
+        message: regenMessage4
+      - title: title1
+        message: regenMessage5

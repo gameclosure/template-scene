@@ -3,9 +3,10 @@ gifts:
     - 1
     - friendPoints
   fastAccept:
-    enabled: false
+    enabled: true
     time: 3600000
     reward:
       - 1
       - friendPoints
 enabled: false
+installed: false

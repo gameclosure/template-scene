@@ -5,10 +5,30 @@ brag:
   maxRewardsPerDay: 4
   checkAllOnShow: true
   enabled: false
+  installed: false
 invite:
   reward:
     - 250
     - common
   checkAllOnShow: false
+  missionsEnabled: true
+  displayInvitedContacts: true
+  missions:
+    - id: mission1
+      invites: 10
+      reward:
+        - 5
+        - premium
+    - id: mission2
+      invites: 30
+      reward:
+        - 15
+        - premium
+    - id: mission3
+      invites: 50
+      reward:
+        - 35
+        - premium
   cooldown: 2592000000
   enabled: false
+  installed: false

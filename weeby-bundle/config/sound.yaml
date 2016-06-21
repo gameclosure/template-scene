@@ -1,67 +1,46 @@
-{
-  "music": {
-    "files": {
-      "leaderboard": {
-        "background": true,
-        "loop": true,
-        "volume": 0.5
-      },
-      "map": {
-        "background": true,
-        "loop": true,
-        "volume": 0.5
-      },
-      "lose": {
-        "background": true,
-        "loop": true,
-        "volume": 0.5
-      },
-      "win": {
-        "background": true,
-        "loop": true,
-        "volume": 0.5
-      }
-    },
-    "defaults": {
-      "turnbased": "leaderboard",
-      "leaderboard": "leaderboard",
-      "progressionmap": "map"
-    }
-  },
-  "sfx": {
-    "files": {
-      "buttonSquishDown": {
-        "volume": 0.33
-      },
-      "buttonSquishUp": {
-        "volume": 0.33
-      },
-      "friendPass": {
-        "volume": 0.75
-      },
-      "gameResult": {
-        "volume": 0.75
-      },
-      "levelUp": {
-        "volume": 0.75
-      },
-      "popFirework": {
-        "volume": 1
-      },
-      "popHeart": {
-        "volume": 0.5
-      },
-      "toggleOff": {
-        "volume": 0.66
-      },
-      "toggleOn": {
-        "volume": 0.66
-      },
-      "starImpact": {
-        "volume": 1
-      }
-    }
-  },
-  "musicPath": "music",
-  "sfxPath": "sfx"
-}
+music:
+  files:
+    leaderboard:
+      background: true
+      loop: true
+      volume: 0.5
+    map:
+      background: true
+      loop: true
+      volume: 0.5
+    lose:
+      background: true
+      loop: true
+      volume: 0.5
+    win:
+      background: true
+      loop: true
+      volume: 0.5
+  defaults:
+    turnbased: "leaderboard"
+    leaderboard: "leaderboard"
+    progressionmap: "map"
+sfx:
+  files:
+    buttonSquishDown:
+      volume: 0.33
+    buttonSquishUp:
+      volume: 0.33
+    friendPass:
+      volume: 0.75
+    gameResult:
+      volume: 0.75
+    levelUp:
+      volume: 0.75
+    popFirework:
+      volume: 1
+    popHeart:
+      volume: 0.5
+    toggleOff:
+      volume: 0.66
+    toggleOn:
+      volume: 0.66
+    starImpact:
+      volume: 1
+musicPath: "music"
+sfxPath: "sfx"

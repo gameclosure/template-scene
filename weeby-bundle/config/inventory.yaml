@@ -2,6 +2,8 @@ imagePath: economy/
 resources:
   common:
     initialValue: 500
+    usePurchaseSuggestionDialog: true
+    spriteAction: shine
     stores:
       premium:
         - cost: 10
@@ -21,6 +23,7 @@ resources:
           purchaseId: commonForPremium5
     enabled: false
   lives:
+    usePurchaseSuggestionDialog: true
     initialValue: 5
     regenerationMax: 5
     regenerationTime: 480000
@@ -43,26 +46,39 @@ resources:
           purchaseId: livesForPremium5
     enabled: false
   premium:
+    usePurchaseSuggestionDialog: true
     initialValue: 10
+    spriteAction: shine
     stores:
       realMoney:
-        - cost: "0.99"
+        - cost: '0.99'
           rewardAmount: 10
           purchaseId: premium_for_real_money1
-        - cost: "4.99"
+        - cost: '4.99'
           rewardAmount: 55
           purchaseId: premium_for_real_money2
-        - cost: "9.99"
+        - cost: '9.99'
           rewardAmount: 120
           purchaseId: premium_for_real_money3
-        - cost: "24.99"
+        - cost: '24.99'
           rewardAmount: 360
           purchaseId: premium_for_real_money4
-        - cost: "44.99"
+        - cost: '44.99'
           rewardAmount: 675
           purchaseId: premium_for_real_money5
     enabled: false
   friendPoints:
+    enabled: false
     initialValue: 0
     stores: {}
+  luckySpins:
     enabled: false
+    spriteAction: spin
+    initialValue: 0
+    stores: {}
+upgradeReward:
+  - 5
+  - premium
+currencyInstalled: true
+livesInstalled: false
+friendPointsInstalled: false

@@ -1,6 +1,6 @@
 enforceTransition: false
 spinner:
-  hover: 0
-  fps: 0
-  mode: image
+  mode: sprite
+  hover: 12
+  fps: 30
 logo: logo.png
