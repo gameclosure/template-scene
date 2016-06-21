@@ -3,8 +3,8 @@
   "appID": "e2ce307d0bd347118b5934c775ad8b41",
   "dependencies": {
     "community-art": "git@github.com:weebygames/community-art.git#master",
-    "devkit-core": "git@github.com:gameclosure/devkit-core#51eae298c7b8dc64b3d07920920fc24d849a9e1f",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#master"
+    "devkit-core": "git@github.com:gameclosure/devkit-core#e0fa4aeee64742add1e1f0202915d35da8ae91b5",
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#b4ee941645ba21b19d367a923a74c5fff0f0a2b7"
   },
   "ios": {},
   "shortName": "templatescene",
