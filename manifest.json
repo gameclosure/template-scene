@@ -9,8 +9,8 @@
   "dependencies": {
     "community-art": "git@github.com:weebygames/community-art.git#master",
     "devkit-core": "https://github.com/gameclosure/devkit-core#e0fa4aeee64742add1e1f0202915d35da8ae91b5",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#master",
-    "weeby": "https://github.com/weebygames/weeby-js#be2f4c1b26d37ea07bf867894d437ac9fc78b9ea"
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#b4ee941645ba21b19d367a923a74c5fff0f0a2b7",
+    "weeby": "https://github.com/weebygames/weeby-js#26a829fe8018b427996e575b93aeeb0bbf80e4da"
   },
   "ios": {},
   "modules": {
