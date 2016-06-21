@@ -79,6 +79,6 @@ resources:
 upgradeReward:
   - 5
   - premium
-currencyInstalled: true
+currencyInstalled: false
 livesInstalled: false
 friendPointsInstalled: false
