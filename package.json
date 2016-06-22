@@ -1,0 +1,7 @@
+{
+  "name": "template-devkit-scene",
+  "version": "0.0.1",
+  "dependencies": {
+    "devkit": "git+ssh://git@github.com:gameclosure/devkit.git#cda5161d3e62ba42434c5a4cd342dea7ede6803d"
+  }
+}

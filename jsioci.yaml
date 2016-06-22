@@ -9,7 +9,7 @@ projectTemplates:
       src: __static__/
       dest: ''
     contents:
-      - hello-world.png.png
+      - hello-world.png
       - abduction.png
       - avoider.png
       - flappy-bee.png
@@ -26,7 +26,14 @@ projectTemplates:
       - .gitignore
       - src: package.json
         template: true
-      - run-deployment.sh
+      - manifest.json
+      - resources
+      - modules
+
+  __prebuild__:
+    cwd: ./__all__
+    cmd: ../node_modules/.bin/devkit
+    args: ['install']
 
 
   hello-world:
