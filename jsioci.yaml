@@ -1,6 +1,6 @@
 projectTemplates:
   __projectType__:
-    url: https://github.com/jsio-private/jsio-pt-devkit#f5d73cda0dec63373cd79a0cd92eb55f20619cc5
+    url: https://github.com/jsio-private/jsio-pt-devkit#5f14e307163eec875b217820f4219e463f0f2bf1
     # url: https://github.com/jsio-private/jsio-pt-devkit#master
     name: jsio-pt-devkit
 
