@@ -1,0 +1,44 @@
+projectTemplates:
+  __projectType__:
+    url: https://github.com/jsio-private/jsio-pt-devkit#783efbff9c8e32cb600c646b73f0645d00d62103
+    # url: https://github.com/jsio-private/jsio-pt-devkit#master
+    name: jsio-pt-devkit
+
+  __static__:
+    _contentsPrefix:
+      src: __static__/
+      dest: ''
+    contents:
+      - hello-world.png
+      - abduction.png
+      - avoider.png
+      - flappy-bee.png
+      - geometry.png
+      - juggle.png
+      - runner.png
+      - swarm.png
+
+  __all__:
+    _contentsPrefix:
+      src: __all__/
+      dest: ''
+    contents:
+      - .gitignore
+      - src: package.json
+        template: true
+      - manifest.json
+      - resources
+      - modules
+
+  __prebuild__:
+    cwd: ./__all__
+    cmd: ../node_modules/.bin/devkit
+    args: ['install']
+
+
+  hello-world:
+    title: 'Hello World'
+    screenshot: '{{s3Url}}/hello-world.png'
+    contents:
+      - src: devkit-scene/examples/Demo.js
+        dest: src/Application.js
